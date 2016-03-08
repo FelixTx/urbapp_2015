@@ -48,24 +48,6 @@
             android:contentDescription="@string/image_newProject_photo"
             android:src="@drawable/photo" />
 
-        <!--
-            <Button
-                android:id="@+id/home_takePicture"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/home_image_newProject_photo"
-                android:layout_alignParentLeft="true"
-                android:text="@string/takePicture"/>
-            
-            <Button
-                android:id="@+id/home_loadPicture"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/home_takePicture"
-                android:layout_alignParentLeft="true"
-                android:text="@string/loadPicture"/>
-        -->
-
     </RelativeLayout>
 
     <RelativeLayout
@@ -84,31 +66,6 @@
             android:contentDescription="@string/image_loadLocalProject"
             android:src="@drawable/local" />
 
-        <!--
-             <Button
-	         android:id="@+id/home_loadLocalProject"
-	         android:layout_width="match_parent"
-	         android:layout_height="wrap_content"
-	         android:layout_below="@+id/home_image_loadLocalProject"
-	         android:layout_alignParentLeft="true"
-	         android:text="@string/loadLocalProject"/>
-	         
-	         <Button
-	         android:id="@+id/home_test"
-	         android:layout_width="match_parent"
-	         android:layout_height="wrap_content"
-	         android:layout_below="@+id/home_loadLocalProject"
-	         android:layout_alignParentLeft="true"
-	         android:text="test"/>
-	         
-	                  <Button
-	         android:id="@+id/home_test_photo"
-	         android:layout_width="match_parent"
-	         android:layout_height="wrap_content"
-	         android:layout_below="@+id/home_test"
-	         android:layout_alignParentLeft="true"
-	         android:text="test photo"/>
-        -->
 
     </RelativeLayout>
 
@@ -129,15 +86,7 @@
             android:contentDescription="@string/image_loadDistantProject"
             android:src="@drawable/ext" />
 
-        <!--
-                 <Button
-                 android:id="@+id/home_loadDistantlProject"
-                 android:layout_width="match_parent"
-                 android:layout_height="wrap_content"
-                 android:layout_below="@+id/home_image_loadDistantProject"
-                 android:layout_alignParentLeft="true"
-                 android:text="@string/loadDistantlProject"/>
-        -->
+
 
     </RelativeLayout>
         <Button
