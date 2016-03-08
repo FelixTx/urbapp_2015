@@ -140,7 +140,7 @@ public class LoadExternalPhotosActivity extends Activity{
 		MainActivity.photo.setUrlTemp(Environment.getExternalStorageDirectory() + "/featureapp/" + MainActivity.photo.getPhoto_url());
 		setResult(RESULT_OK);
 		finish();
-		Toast.makeText(MainActivity.baseContext, "Chargement de la photo", Toast.LENGTH_SHORT).show();
+		Toast.makeText(MainActivity.baseContext, "@string/pic_loading", Toast.LENGTH_SHORT).show();
 		return true;
 		}
 	};
@@ -242,7 +242,7 @@ public class LoadExternalPhotosActivity extends Activity{
 			MainActivity.photo.setUrlTemp(Environment.getExternalStorageDirectory() + "/featureapp/" + MainActivity.photo.getPhoto_url());
 			setResult(RESULT_OK);
 			finish();
-			Toast.makeText(MainActivity.baseContext, "Chargement de la photo", Toast.LENGTH_SHORT).show();
+			Toast.makeText(MainActivity.baseContext, "@string/pic_loading", Toast.LENGTH_SHORT).show();
 		}
 	};
 

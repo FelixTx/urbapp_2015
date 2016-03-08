@@ -118,7 +118,7 @@ public class LoadExternalProjectsActivity extends Activity {
             if(numberClicked==2)
                 numberClicked =0;
             if (numberClicked==0){
-                Toast.makeText(MainActivity.baseContext, "Appuyer une seconde fois pour charger le projet", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.baseContext, "@string/double_click", Toast.LENGTH_SHORT).show();
                 firstClick=projectMarkers.get(marker.getTitle());
             }
             map.getController().setCenter(marker.getPosition());
@@ -128,7 +128,7 @@ public class LoadExternalProjectsActivity extends Activity {
                 secondClick=projectMarkers.get(marker.getTitle());
             numberClicked++;
             if (secondClick == firstClick) {
-                Toast.makeText(MainActivity.baseContext, "Chargement du projet", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.baseContext, "@string/project_loading", Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(getApplicationContext(), LoadExternalPhotosActivity.class);
                 i.putExtra("SELECTED_PROJECT_ID",refreshedValues.get(secondClick).getProjectId());
 
@@ -235,14 +235,14 @@ public class LoadExternalProjectsActivity extends Activity {
             if(numberClicked==2)
                 numberClicked =0;
             if (numberClicked==0){
-                Toast.makeText(MainActivity.baseContext, "Appuyer une seconde fois pour charger le projet", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.baseContext, "@string/double_click", Toast.LENGTH_SHORT).show();
                 firstClick=position;
             }
             if(numberClicked==1)
                 secondClick=position;
             numberClicked++;
             if (secondClick == firstClick) {
-                Toast.makeText(MainActivity.baseContext, "Chargement du projet", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.baseContext, "@string/project_loading", Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(getApplicationContext(), LoadExternalPhotosActivity.class);
                 i.putExtra("SELECTED_PROJECT_ID",refreshedValues.get(position).getProjectId());
 

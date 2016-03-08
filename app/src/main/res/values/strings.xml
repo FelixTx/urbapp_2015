@@ -114,4 +114,13 @@
     <string name="connection_lost">Connection lost...</string>
     <string name="disconnected">Disconnected. Please re-connect.</string>
 
+    <!-- Toasts in load-external/local-photosactivity -->
+
+    <string name="pic_loading">Picture loading...</string>
+
+    <!-- toasts in LoadExternalProjectActivity -->
+
+    <string name="double_click">Click again to load project</string>
+    <string name="project_loading">Project loading...</string>
+
 </resources>

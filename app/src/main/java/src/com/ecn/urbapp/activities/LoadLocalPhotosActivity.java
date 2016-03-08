@@ -107,7 +107,7 @@ public class LoadLocalPhotosActivity extends Activity{
 	public OnMarkerClickListener markerClick = new OnMarkerClickListener() {
 		@Override
 		public boolean onMarkerClick(Marker marker, MapView mapView) {
-			Toast.makeText(MainActivity.baseContext, "Chargement de la photo", Toast.LENGTH_SHORT).show();
+			Toast.makeText(MainActivity.baseContext, "@pic_loading", Toast.LENGTH_SHORT).show();
 			//TODO Sebastien has to make it more readable
 			MainActivity.datasource.instanciatePhoto(refreshedValues.get(photosMarkers.get(marker.getTitle())).getPhoto_id());
 			//TODO do a better way to have the path !

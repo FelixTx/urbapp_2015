@@ -92,7 +92,7 @@ public class LoadLocalProjectsActivity extends Activity {
         @Override
         public boolean onMarkerClick(Marker marker, MapView mapView) {
             if (click == 0) {
-                Toast.makeText(MainActivity.baseContext, "Appuyer une seconde fois pour charger le projet", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.baseContext, "@string/double_click", Toast.LENGTH_SHORT).show();
                 click=1;
             } else if (click == 1) {
             Toast.makeText(MainActivity.baseContext, refreshedValues.get(projectMarkers.get(marker.getTitle())).toString(), Toast.LENGTH_LONG).show();
