@@ -265,7 +265,7 @@ public class MainActivity extends Activity {
 	 * Method if no internet connectivity to print a Dialog.
 	 */
 	public static void errorConnect() {
-		alertDialog.setTitle("Pas de connexion internet de disponible. Relancer l'application, une fois internet fonctionnel");
+		alertDialog.setTitle("Veuillez activer internet et relancer l'application...");
 		alertDialog.show();		
 		internet=false;
 	}
