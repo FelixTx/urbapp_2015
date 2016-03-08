@@ -8,8 +8,10 @@
     <string name="saveFragment">Save and Sync</string>
     <string name="zoneFragment">Draw surfaces</string>
     <string name="informationFragment">Information</string>
-    
-    <string name="syncMatAndTypes">Load material and types from server</string>
+
+    <string name="export_material">Load list of materials from server</string>
+
+    <string name="syncMatAndTypes">aller dans values/string-en pour changer ce texte</string>
     <string name="image_newProject">Image : new project</string>
     <string name="image_newProject_takePhoto">Image : new project</string>
     <string name="image_newProject_photo">Image : new project</string>
@@ -59,7 +61,7 @@
     <string name="save_textStatus">None</string>
     <string name="save_buttonSync">Synchronize</string>
     <string name="back">Revert last</string>
-    <string name="cancel">Stop</string>
+    <string name="cancel">Cancel</string>
     <string name="help">Help</string>
     <string name="validate">Validate</string>
     <string name="zone_edit_button_delete_point">Delet point</string>
@@ -82,7 +84,8 @@
     
     <string name="hybrid">hybrid</string>
 	<string name="confirm">Validate</string>
-	<string name="confirm_photo">Validate loading</string>
+	<string name="confirm_photo">Are you sure you want to start a new project ?</string>
+    <string name="confirm_photo_msg">Current project data will be lost.</string>
 	<string name="progress_dialog_title_connecting">Uploading started...</string>
 	<string name="upload_error_title">Upload error</string>
 	<string name="upload_error_message">Uploading failed</string>
@@ -103,5 +106,12 @@
     <string name="export">Export</string>
     <string name="delete">Delete</string>
     <string name="modify">Edit</string>
+
+    <!-- Toasts in geoactivity -->
+
+    <string name="not_enough_points">Please, define more points.</string>
+    <string name="max_points">Maximum of points reached.</string>
+    <string name="connection_lost">Connection lost...</string>
+    <string name="disconnected">Disconnected. Please re-connect.</string>
 
 </resources>

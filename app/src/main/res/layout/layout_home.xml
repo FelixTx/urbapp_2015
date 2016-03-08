@@ -94,12 +94,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:text="Export la liste des matériaux" />
+            android:text="@string/export_material" />
 
-        <Button
+
+    <Button
             android:id="@+id/home_syncMatAndTypes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:text="Sync" />
+            android:text="@string/syncMatAndTypes" />
 </RelativeLayout>

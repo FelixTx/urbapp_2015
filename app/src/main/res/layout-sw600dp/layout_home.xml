@@ -149,6 +149,6 @@
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/home_layout_newProject"
             android:layout_alignParentTop="true"
-            android:text="Exporter la liste des matériaux" />
+            android:text="@string/export_material" />
     
 </RelativeLayout>

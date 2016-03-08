@@ -8,8 +8,10 @@
     <string name="saveFragment">Sauvegarde et synchronisation</string>
     <string name="zoneFragment">Définition des zones</string>
     <string name="informationFragment">Informations</string>
-    
-    <string name="syncMatAndTypes">charger les matériaux et Types du serveur</string>
+
+    <string name="export_material">Exporter une liste de matériaux</string>
+
+    <string name="syncMatAndTypes">aller dans values/string-en pour changer ce texte</string>
     <string name="image_newProject">Image : nouveau projet</string>
     <string name="image_newProject_takePhoto">Image : nouveau projet</string>
     <string name="image_newProject_photo">Image : nouveau projet</string>
@@ -59,7 +61,7 @@
     <string name="save_textStatus">None</string>
     <string name="save_buttonSync">Synchroniser</string>
     <string name="back">Annuler la dernière action</string>
-    <string name="cancel">Stop</string>
+    <string name="cancel">Annuler</string>
     <string name="help">Aide</string>
     <string name="validate">Valider</string>
     <string name="zone_edit_button_delete_point">Supprimer le point</string>
@@ -82,7 +84,8 @@
     
     <string name="hybrid">hybride</string>
 	<string name="confirm">Confirmer</string>
-	<string name="confirm_photo">Valider le chargement</string>
+	<string name="confirm_photo">Voulez vous vraiment démarrer un nouveau projet ?</string>
+    <string name="confirm_photo_msg">Les données non sauvegardées seront perdues.</string>
 	<string name="progress_dialog_title_connecting">Début d\'envoi de l\'image</string>
 	<string name="upload_error_title">Erreur envoi</string>
 	<string name="upload_error_message">Problème de lors de l\envoi</string>
@@ -103,5 +106,11 @@
     <string name="export">Exporter</string>
     <string name="delete">Supprimer</string>
     <string name="modify">Modifier</string>
+
+<!-- Toasts in geoactivity -->
+    <string name="not_enough_points">Vous n'avez pas renseigné assez de points.</string>
+    <string name="max_points">Nombre de points maximum atteint</string>
+    <string name="connection_lost">Connexion perdue...</string>
+    <string name="disconnected">Déconnecté... Veuillez vous reconnecter.</string>
 
 </resources>

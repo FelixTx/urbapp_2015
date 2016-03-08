@@ -392,7 +392,7 @@ public class GeoActivity extends Activity implements GoogleApiClient.ConnectionC
     public void onClick (View v) {
     	
     	if ( (NbPointsGeoDialog.selected == 1 && markers.size() < 3) || (NbPointsGeoDialog.selected == 2 && markers.size() < 2) ) {
-    		Toast.makeText(getBaseContext(), "Vous n'avez pas renseigné assez de points", Toast.LENGTH_SHORT).show();
+    		Toast.makeText(getBaseContext(), "@string/not_enough_points", Toast.LENGTH_SHORT).show();
     	}
     	
     	else if (NbPointsGeoDialog.selected == 1) {
@@ -509,7 +509,7 @@ public class GeoActivity extends Activity implements GoogleApiClient.ConnectionC
 			markerToArray(markers);
 		}
 		else if(NbPointsGeoDialog.selected == 2 && markers.size() == 2) {
-			Toast.makeText(getApplicationContext(), "Nombre de points maximum atteint", Toast.LENGTH_SHORT).show();
+			Toast.makeText(getApplicationContext(), "@string/max_points", Toast.LENGTH_SHORT).show();
 		}
 		return true;
 	}
@@ -580,7 +580,7 @@ public class GeoActivity extends Activity implements GoogleApiClient.ConnectionC
 
 	@Override
 	public void onConnectionSuspended(int i) {
-		Toast.makeText(MainActivity.baseContext, "Connection perdue", Toast.LENGTH_LONG).show();
+		Toast.makeText(MainActivity.baseContext, "@string/connection_lost", Toast.LENGTH_LONG).show();
 	}
 
 	/**
@@ -589,7 +589,7 @@ public class GeoActivity extends Activity implements GoogleApiClient.ConnectionC
 	 */
 	public void onDisconnected() {
 		// Display the connection status
-		Toast.makeText(this, "Disconnected. Please re-connect.",Toast.LENGTH_SHORT).show();
+		Toast.makeText(this, "@string/disconnected",Toast.LENGTH_SHORT).show();
 	}
 
 	/**
